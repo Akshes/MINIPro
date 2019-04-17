@@ -19,8 +19,8 @@ final class CodeTest extends TestCase
     public function testFactoryDirectory(){
         $this->assertDirectoryExists('Factory');
     }
-    public function testSrcDirectory(){
-        $this->assertDirectoryExists('src');
+    public function testfileDirectory(){
+        $this->assertDirectoryExists('file');
     }
 
 
