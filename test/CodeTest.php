@@ -13,7 +13,9 @@ final class CodeTest extends TestCase
     public function testcsvloadFile(){
         echo file_exists('csvLoad');
     }
-
+    public function testSrcDirectory(){
+        $this->assertDirectoryExists('src');
+    }
 
 
 
