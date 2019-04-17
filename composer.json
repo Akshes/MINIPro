@@ -7,7 +7,7 @@
     "license": "Mit",
     "name": "testpsr4",
     "autoload": {
-        "psr-4": {"kaw393939\\": "src/"}
+        "psr-4": {"Akshes\\": "src/"}
     },
     "authors": [
         {
