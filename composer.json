@@ -5,6 +5,10 @@
         "phpunit/phpunit": "^8.1"
     },
     "license": "Mit",
+    "name": "testpsr4",
+    "autoload": {
+        "psr-4": {"kaw393939\\": "src/"}
+    },
     "authors": [
         {
             "name": "Akshesh Patel",
