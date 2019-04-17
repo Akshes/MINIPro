@@ -1,0 +1,15 @@
+{
+    "name": "sanja/mini-pro",
+    "type": "Project",
+    "require-dev": {
+        "phpunit/phpunit": "^8.1"
+    },
+    "license": "Mit",
+    "authors": [
+        {
+            "name": "Akshesh Patel",
+            "email": "47195718+Akshes@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}
