@@ -7,11 +7,11 @@ final class CodeTest extends TestCase
     {
         $this->assertFileExists('data/shoes.csv');
     }
-    public function testCSVFileExists()
-    {
-        $this->assertFileExists('Src/Factory/recordFactory.php');
+    public function testrecordFactorFile(){
+        echo file_exists('recordFactor');
     }
-
    
+
+
 
 }
