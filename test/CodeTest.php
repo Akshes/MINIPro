@@ -10,7 +10,10 @@ final class CodeTest extends TestCase
     public function testrecordFactorFile(){
         echo file_exists('recordFactor');
     }
-   
+    public function testcsvloadFile(){
+        echo file_exists('csvLoad');
+    }
+
 
 
 
