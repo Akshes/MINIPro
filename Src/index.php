@@ -20,6 +20,12 @@ if ($pdo != null)
 else
     echo 'Whoops, could not connect to the SQLite database!';
 
+$stmt = $pdo->prepare('SELECT * FROM contacts');
+$stmt->execute();
+$contacts = $stmt->fetchObject();
+
+print_r($contacts)
+
 //phpinfo();
 ?>
 
