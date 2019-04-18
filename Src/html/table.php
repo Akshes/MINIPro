@@ -8,5 +8,7 @@
 namespace  Akshes\db;
 class table
 {
-}
+    public static function table(String $rows){
+        return '<table>'.$rows.'</table>';
+    }
 }
