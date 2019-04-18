@@ -11,7 +11,7 @@ namespace Akshes\db;
 
 class Config
 {
-    const PATH_TO_SQLITE_FILE = '../Data/Database.sqlit';
+    const PATH_TO_SQLITE_FILE = '../Data/Database.sqlite';
 
 }
 
