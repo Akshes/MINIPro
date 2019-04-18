@@ -13,7 +13,7 @@ require_once '../vendor/autoload.php';
 <?php
 //$obj = new bootstrap('../data/deniro.csv');
 
-use Akshes\SQLiteConnection;
+use Akshes\db\SQLiteConnection;
 $pdo = (new SQLiteConnection())->connect();
 if ($pdo != null)
     echo 'Connected to the SQLite database successfully!';
