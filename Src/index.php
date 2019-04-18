@@ -13,7 +13,8 @@ require_once '../vendor/autoload.php';
 <?php
 //$obj = new bootstrap('../data/deniro.csv');
 
-phpinfo();
+
+//phpinfo();
 ?>
 
 </body>
