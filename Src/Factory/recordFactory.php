@@ -17,3 +17,4 @@ class recordFactory
         return new record($data);
     }
 }
+
