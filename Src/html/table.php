@@ -15,4 +15,8 @@ class table
     public static function th(String $headings){
         return '<th>'.$headings.'</th>';
     }
+
+    public static function tr(String $columns){
+        return '<tr>'.$columns.'</tr>';
+    }
 }
