@@ -15,5 +15,7 @@
             "email": "47195718+Akshes@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-pdo": "*"
+    }
 }
