@@ -19,4 +19,7 @@ class table
     public static function tr(String $columns){
         return '<tr>'.$columns.'</tr>';
     }
+    public static function td(String $data){
+        return '<td>'.$data.'</td>';
+    }
 }
