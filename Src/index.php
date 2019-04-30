@@ -11,7 +11,7 @@ require_once '../vendor/autoload.php';
 </head>
 <body>
 <?php
-//$obj = new bootstrap('../data/deniro.csv');
+//$obj = new bootstrap('../data/shoes.csv');
 
 use Akshes\db\SQLiteConnection;
 $pdo = (new SQLiteConnection())->connect();

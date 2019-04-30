@@ -22,7 +22,10 @@ final class CodeTest extends TestCase
     public function testfileDirectory(){
         $this->assertDirectoryExists('file');
     }
-
+    public function testdbDirectory(){
+        $this->assertDirectoryExists('db');
+    }
+    
 
 
 }
