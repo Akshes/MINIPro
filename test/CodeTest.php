@@ -25,6 +25,12 @@ final class CodeTest extends TestCase
     public function testdbDirectory(){
         $this->assertDirectoryExists('db');
     }
+    public function testhtmlDirectory(){
+        $this->assertDirectoryExists('html');
+    }
+    public function testmodelsDicretory(){
+        $this->assertDirectoryExists('models');
+    }
     
 
 
