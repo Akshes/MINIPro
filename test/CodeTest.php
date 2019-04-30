@@ -31,7 +31,12 @@ final class CodeTest extends TestCase
     public function testmodelsDicretory(){
         $this->assertDirectoryExists('models');
     }
-    
+    public function testtableFile(){
+        echo file_exists('table');
+    }
+    public function testindexFile(){
+        echo file_exists('index')
+    }
 
 
 }
