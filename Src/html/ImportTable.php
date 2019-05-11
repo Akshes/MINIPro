@@ -2,7 +2,7 @@
 function Import($class) {
     include $class . '.php';
 }
-spl_autoload_register('Import');
+spl_autoload_register('autoload');
 $file = new File();
 $array = $file::readCSVtoArray("../data/shoe.csv");
 $obj = new CreateSQLTable();
