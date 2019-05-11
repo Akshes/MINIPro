@@ -7,10 +7,17 @@
  */
 namespace  Akshes\models;
 
-class record{
-    public function __construct(Array $data){
-        foreach ($data as $key => $value){
-            $this->{$key}=$value;
+class record
+{
+    public function __construct(Array $data)
+    {
+        foreach ($data as $key => $value) {
+            $this->{$key} = $value;
         }
-}
+    }
+
+    function getData(): array
+    {
+        return $this->data;
+    }
 }
