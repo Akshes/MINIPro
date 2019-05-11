@@ -37,6 +37,29 @@ final class CodeTest extends TestCase
     public function testindexFile(){
         echo file_exists('index')
     }
+    public function testCreateTableFile(){
+        echo file_exists('CreateTable')
+    }
+    public function testSQLiteConnectionFile(){
+        echo file_exists('SQLiteConnection')
+    }
+    public function testSQLiteConnectionFile(){
+        echo file_exists('SQLiteConnection')
+    }
+    public function testUploadTableFile(){
+        echo file_exists('UploadTable')
+    }
+    public function testCodeFile(){
+        echo file_exists('Code')
+    }
+    public function testImportTableFile(){
+        echo file_exists('ImportTable')
+    }
+    public function testBootstrapFile(){
+        echo file_exists('Bootstrap')
+    }
+
+
 
 
 }
